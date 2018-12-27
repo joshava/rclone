@@ -11,7 +11,7 @@
 ## Usage
 
 ```bash
-docker run joshava/rclone
+docker run -v ./rclone.conf:/root/.config/rclone/rclone.conf:ro joshava/rclone
 ```
 
 [rclone]: https://github.com/ncw/rclone
